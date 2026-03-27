@@ -205,6 +205,7 @@ body {
 .About .row .content p {
   font-size: 1.2rem;
   line-height: 1.5;
+  max-width: 800px;
 }
 
 /*data section*/
@@ -516,7 +517,7 @@ body {
 
 /*contact section*/
 .contact {
-  padding: 10rem 7% 1.4rem;
+  padding: 5rem 7% 1.4rem;
 }
 
 .contact h2 {
@@ -674,5 +675,6 @@ footer .credits {
 @media (max-width: 450px) {
   html {
     font-size: 45%;
+    max-width: 450px;
   }
 }

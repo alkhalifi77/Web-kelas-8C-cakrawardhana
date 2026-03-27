@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Event listener untuk menangani pengiriman saran
   adviceForm.addEventListener("submit", (e) => {
-    e.preventDefault(); // Mencegah reload halaman
+    e.preventDefault();
 
     const name = adviceName.value.trim();
     const text = adviceInput.value.trim();
