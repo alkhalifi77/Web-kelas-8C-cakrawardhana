@@ -278,6 +278,33 @@ body {
   margin: auto;
 }
 
+/*photo section*/
+.photo {
+  padding: 10rem 7% 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.daftar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.photo .daftar img {
+  border-radius: 30%;
+  width: 23%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+}
+
+.photo .daftar img:hover {
+  transform: scale(1.05);
+  box-shadow: #00c42a 0px 5px 15px;
+}
+
 /*animations*/
 .item {
   width: 250px;
